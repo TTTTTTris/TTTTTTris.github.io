@@ -17,42 +17,85 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a Ph.D. candidate in Computer Engineering at the **University of California, Santa Barbara**, where I also received my M.S. in Computer Engineering. Before that, I received my B.Eng. in Electrical Engineering from **Nanjing University**.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research focuses on **efficient large language model (LLM) training and inference** and **efficient chain-of-thought (CoT) reasoning via algorithm-system co-design**. I work across the stack — from compression algorithms to the systems that run them — on topics including model compression, KV cache compression, pruning, low-rank decomposition, early exit, knowledge distillation, quantization, speculative decoding/reasoning, and efficient agentic systems. My work has appeared at COLM, MLSys, EACL, EMNLP, ICASSP, and IEEE TCAD, and was developed in part during research internships at **Intel** and **AMD-Xilinx**.
 
+You can find my publications on <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'>Google Scholar</a>, with total <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'>citations <strong><span id='total_cit'>66</span></strong></a> <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.08*: &nbsp;🎉 *LoRi: Low-Rank Distillation for Implicit Reasoning* accepted to Findings of the Association for Computational Linguistics: **EMNLP 2026**.
+- *2026.07*: &nbsp;🎓 Advanced to Ph.D. candidacy in Computer Engineering at **UC Santa Barbara**.
+- *2026.07*: &nbsp;🎉 *RankGuide: Tensor-Rank-Guided Routing and Steering for Efficient Reasoning* accepted to the Third Conference on Language Modeling (**COLM 2026**).
+- *2026.02*: &nbsp;🎉 *SkipKV: Selective Skipping of KV Generation and Storage for Efficient Inference with Large Reasoning Models* accepted to the Ninth Annual Conference on Machine Learning and Systems (**MLSys 2026**).
+- *2026.01*: &nbsp;🎉 *FLAT-LLM: Fine-grained Low-rank Activation Space Transformation for Large Language Model Compression* accepted to Findings of the Association for Computational Linguistics: **EACL 2026**.
+- *2026.01*: &nbsp;🎉 *FETTA: Flexible and Efficient Hardware Accelerator for Tensorized Neural Network Training* published in **IEEE TCAD**.
+- *2025.09*: &nbsp;🎓 Received my M.S. in Computer Engineering from **UC Santa Barbara**.
+- *2025.08*: &nbsp;🎉 *Ultra Memory-Efficient On-FPGA Training of Transformers via Tensor-Compressed Optimization* accepted to **IEEE TCAD**.
+- *2025.06*: &nbsp;🛠️ Started my summer research internship at **Intel**, Hillsboro, OR.
+- *2024.06*: &nbsp;🛠️ Started my summer research internship at **Intel**, Hillsboro, OR.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<!-- TODO: replace images/500x300.png with a teaser figure for each paper. -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2026</div><img src='images/rankguide.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[RankGuide: Tensor-Rank-Guided Routing and Steering for Efficient Reasoning](https://arxiv.org/abs/2604.16694)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Jiayi Tian**, Yupeng Su, Ryan Solgi, Souvik Kundu, Zheng Zhang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Paper**](https://arxiv.org/abs/2604.16694) \| [**Code**](https://github.com/TTTTTTris/RankGuide.git) <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:_FxGoFyzp5QC'></span></strong>
+- Leverages tensor-rank signals from hidden states to accelerate large reasoning model inference, yielding up to 1.75× and 1.36× latency benefit over LRM and SoTA collaborative inference while maintaining or improving accuracy.
+- A tensor-rank scoring metric on step-level hidden states detects low-quality reasoning steps and selectively routes them to larger models.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MLSys 2026</div><img src='images/skipkv.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[SkipKV: Selective Skipping of KV Generation and Storage for Efficient Inference with Large Reasoning Models](https://proceedings.mlsys.org/paper_files/paper/2026/file/45c1f6a8cbf2da59ebf2c802b4f742cd-Paper-Conference.pdf)
+
+**Jiayi Tian**, Seyedarmin Azizi, Yequan Zhao, Erfan Baghaei Potraghloo, Sean McPherson, Sharath Nittur Sridhar, Zhengyang Wang, Zheng Zhang, Massoud Pedram, Souvik Kundu
+
+[**Paper**](https://proceedings.mlsys.org/paper_files/paper/2026/file/45c1f6a8cbf2da59ebf2c802b4f742cd-Paper-Conference.pdf) \| [**Code**](https://github.com/TTTTTTris/SkipKV.git) <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:ufrVoPGSRksC'></span></strong>
+- A training-free KV-cache compression framework with sentence-level selective eviction and dynamic thoughts-type control for efficient CoT reasoning in multi-batch serving.
+- Up to 26.7% higher accuracy, 1.6× shorter generation, and 1.7× higher throughput vs. SoTA under equal compression.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EACL 2026</div><img src='images/flatllm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[FLAT-LLM: Fine-grained Low-rank Activation Space Transformation for Large Language Model Compression](https://aclanthology.org/2026.findings-eacl.156.pdf)
+
+**Jiayi Tian**, Ryan Solgi, Jinming Lu, Yifan Yang, Hai Li, Zheng Zhang
+
+[**Paper**](https://aclanthology.org/2026.findings-eacl.156.pdf) \| [**Code**](https://github.com/TTTTTTris/FLAT-LLM) <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:Y0pCki6q_DkC'></span></strong>
+- A training-free, fine-grained compression method that exploits the low-rank structure of the activation space to transform and compress model weights.
+- A training-free rank selection algorithm based on greedy rank redistribution; strong results on LLaMA-2/3 and Mistral with calibration overhead in minutes.
+</div>
+</div>
+
+- [LoRi: Low-Rank Distillation for Implicit Reasoning](https://arxiv.org/abs/2606.05315), Ryan Solgi, **Jiayi Tian**, Zheng Zhang, **Findings of EMNLP 2026** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:LkGwnXOMwfcC'></span></strong>
+- [IAPO: Input Attribution-Aware Policy Optimization for Tool Use in Small Multimodal Agents](https://arxiv.org/abs/2606.11652), Yifan Yang, Zhen Zhang, **Jiayi Tian**, Liyan Tan, Zheng Zhang, **arXiv 2026** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:roLk4NBRz8UC'></span></strong>
+- [FETTA: Flexible and Efficient Hardware Accelerator for Tensorized Neural Network Training](https://arxiv.org/abs/2504.06474), Jinming Lu, **Jiayi Tian**, Hai Li, Ian Young, Zheng Zhang, **IEEE TCAD 2026** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:Tyk-4Ss8FVUC'></span></strong>
+- [Ultra Memory-Efficient On-FPGA Training of Transformers via Tensor-Compressed Optimization](https://ieeexplore.ieee.org/document/11121368), **Jiayi Tian**, Jinming Lu, Hai Li, Xiangwei Wang, Cong (Callie) Hao, Ian Young, Zheng Zhang, **IEEE TCAD 2025** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:W7OEmFMy1HYC'></span></strong>
+- [Tensor-Compressed and Fully-Quantized Training of Neural PDE Solvers](https://arxiv.org/abs/2512.09202), Jinming Lu, **Jiayi Tian**, Yequan Zhao, Hai Li, Zheng Zhang, **arXiv 2025** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:WF5omc3nYNoC'></span></strong>
+- [Activation-Informed Pareto-Guided Low-Rank Compression for Efficient LLM/VLM](https://arxiv.org/abs/2510.05544), Ryan Solgi, Parsa Madinei, **Jiayi Tian**, Rupak Swaminathan, Jing Liu, Nathan Susanj, Zheng Zhang, **arXiv 2025** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:YsMSGLbcyi4C'></span></strong>
+- [BEBERT: Efficient and Robust Binary Ensemble BERT](https://ieeexplore.ieee.org/document/10096223), **Jiayi Tian**, Chao Fang, Haonan Wang, Zhongfeng Wang, **ICASSP 2023** \| [**Code**](https://github.com/TTTTTTris/BEBERT.git) <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:u-x6o8ySG0sC'></span></strong>
+
+## Mentorship
+- [Comprehensive Design Space Exploration for Tensorized Neural Network Hardware Accelerators](https://arxiv.org/abs/2511.17971), Jinsong Zhang, Minghe Li, **Jiayi Tian**, Jinming Lu, Zheng Zhang, **arXiv 2025** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:eQOLeE2rZwMC'></span></strong>
+
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2023.09 - now*, **Ph.D. in Computer Engineering**, University of California, Santa Barbara, CA, USA. (GPA 3.93/4.0)
+- *2023.09 - 2025.09*, **M.S. in Computer Engineering**, University of California, Santa Barbara, CA, USA. (GPA 3.93/4.0)
+- *2019.09 - 2023.06*, **B.Eng. in Electrical Engineering**, Nanjing University, China. (GPA 4.50/5.0)
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2025.06 - 2025.09*, **Research Intern**, [Intel Corporation](https://www.intel.com/), Hillsboro, OR, USA. Mentor: [Souvik Kundu](https://ksouvik52.github.io/). Proposed SkipKV, a training-free KV-cache compression framework with a dynamic latent thoughts-type steering mechanism for concise and stable reasoning (MLSys 2026).
+- *2024.06 - 2024.09*, **Research Intern**, [Intel Corporation](https://www.intel.com/), Hillsboro, OR, USA. Mentor: [Hai Li](https://www.linkedin.com/in/hai-li-1826b740). Built a tensor-compressed Transformer training accelerator on FPGA with a bidirectional tensor contraction scheme, reaching up to 51× memory efficiency and 4× energy efficiency vs. an NVIDIA RTX 3090 (IEEE TCAD 2025).
+- *2023.06 - 2023.09*, **Co-Op/Intern**, AMD-Xilinx Technology, Beijing, China. Developed a C++/HLS Transformer training framework with custom tensorized linear layers and nonlinear operators, achieving 30×~52× model size savings for end-to-end Transformer training.

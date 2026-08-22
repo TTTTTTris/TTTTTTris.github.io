@@ -16,7 +16,7 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem "wdm", ">= 0.2.0" if Gem.win_platform?
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -25,3 +25,16 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
+
+# Ruby 3.4+ / 4.x dropped these from the default gems, but jekyll 3.9 (pinned by
+# the github-pages gem) still requires them.
+gem "base64"
+gem "bigdecimal"
+gem "csv"
+gem "logger"
+gem "observer"
+gem "ostruct"
+gem "webrick"
+
+# Windows ships no zoneinfo database, so tzinfo needs its own copy.
+gem "tzinfo-data" if Gem.win_platform?
