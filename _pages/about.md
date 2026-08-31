@@ -21,7 +21,7 @@ I am a Ph.D. candidate in Computer Engineering at the **University of California
 
 My research focuses on **efficient large language model (LLM) training and inference** and **efficient chain-of-thought (CoT) reasoning via algorithm-system co-design**. I work across the stack — from compression algorithms to the systems that run them — on topics including model compression, KV cache compression, pruning, low-rank decomposition, early exit, knowledge distillation, quantization, speculative decoding/reasoning, and efficient agentic systems. My work has appeared at COLM, MLSys, EACL, EMNLP, ICASSP, and IEEE TCAD, and was developed in part during research internships at **Intel** and **AMD-Xilinx**.
 
-You can find my publications on <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'>Google Scholar</a>, with total <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'>citations <strong><span id='total_cit'>66</span></strong></a> <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+You can find my publications on <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'>Google Scholar</a>, with total <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'>citations <strong><span id='total_cit'>&hellip;</span></strong></a> <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 # 🔥 News
 - *2026.08*: &nbsp;🎉 *LoRi: Low-Rank Distillation for Implicit Reasoning* accepted to Findings of the Association for Computational Linguistics: **EMNLP 2026**.
@@ -99,3 +99,20 @@ You can find my publications on <a href='https://scholar.google.com/citations?us
 - *2025.06 - 2025.09*, **Research Intern**, [Intel Corporation](https://www.intel.com/), Hillsboro, OR, USA. Mentor: [Souvik Kundu](https://ksouvik52.github.io/). Proposed SkipKV, a training-free KV-cache compression framework with a dynamic latent thoughts-type steering mechanism for concise and stable reasoning (MLSys 2026).
 - *2024.06 - 2024.09*, **Research Intern**, [Intel Corporation](https://www.intel.com/), Hillsboro, OR, USA. Mentor: [Hai Li](https://www.linkedin.com/in/hai-li-1826b740). Built a tensor-compressed Transformer training accelerator on FPGA with a bidirectional tensor contraction scheme, reaching up to 51× memory efficiency and 4× energy efficiency vs. an NVIDIA RTX 3090 (IEEE TCAD 2025).
 - *2023.06 - 2023.09*, **Co-Op/Intern**, AMD-Xilinx Technology, Beijing, China. Developed a C++/HLS Transformer training framework with custom tensorized linear layers and nonlinear operators, achieving 30×~52× model size savings for end-to-end Transformer training.
+
+<!-- {% comment %}
+  ClustrMaps visitor map -- currently inactive.
+
+  To turn it on:
+    1. Go to https://clustrmaps.com/ and register  https://ttttttris.github.io/
+    2. It hands you a snippet containing a unique id, e.g.
+         src="//clustrmaps.com/map_v2.js?d=AbC1dEfGh2IjK3lMnOpQ4&cl=ffffff&w=a"
+    3. Paste that id over YOUR_CLUSTRMAPS_ID below, then delete the two
+       comment markers (the line above and the line below the block) so it renders.
+
+# 🗺️ Visitors
+
+<div style="width: 100%; display: flex; justify-content: center; margin-top: 1.5em;">
+  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=YOUR_CLUSTRMAPS_ID&cl=ffffff&w=a"></script>
+</div>
+{% endcomment %} -->

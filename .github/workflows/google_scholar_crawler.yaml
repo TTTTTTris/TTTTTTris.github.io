@@ -12,6 +12,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Google Scholar blocks Actions runner IPs, and scholarly retries until the
+    # 6h job ceiling. Fail fast instead of burning 6 Actions-hours per day.
+    timeout-minutes: 20
     steps:
     - uses: actions/checkout@v4
     - name: Install Reqs
@@ -32,3 +35,5 @@ jobs:
         git push "${remote_repo}" HEAD:google-scholar-stats --force
       env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        # Optional. Unset -> the runner tries Scholar directly and is blocked.
+        SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
