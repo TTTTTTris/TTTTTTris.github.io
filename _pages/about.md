@@ -21,7 +21,9 @@ I am a Ph.D. candidate in Computer Engineering at the **University of California
 
 My research focuses on **efficient large language model (LLM) training and inference** and **efficient chain-of-thought (CoT) reasoning via algorithm-system co-design**. I work across the stack — from compression algorithms to the systems that run them — on topics including model compression, KV cache compression, pruning, low-rank decomposition, early exit, knowledge distillation, quantization, speculative decoding/reasoning, and efficient agentic systems. My work has appeared at COLM, MLSys, EACL, EMNLP, ICASSP, and IEEE TCAD, and was developed in part during research internships at **Intel** and **AMD-Xilinx**.
 
-You can find my publications on <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'>Google Scholar</a>, with total <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'>citations <strong><span id='total_cit'>&hellip;</span></strong></a> <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+You can find my publications on <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'>Google Scholar</a>.
+
+<!-- with total <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'>citations <strong><span id='total_cit'>&hellip;</span></strong></a> <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
 # 🔥 News
 - *2026.08*: &nbsp;🎉 *LoRi: Low-Rank Distillation for Implicit Reasoning* accepted to Findings of the Association for Computational Linguistics: **EMNLP 2026**.
@@ -46,7 +48,7 @@ You can find my publications on <a href='https://scholar.google.com/citations?us
 
 **Jiayi Tian**, Yupeng Su, Ryan Solgi, Souvik Kundu, Zheng Zhang
 
-[**Paper**](https://arxiv.org/abs/2604.16694) \| [**Code**](https://github.com/TTTTTTris/RankGuide.git) <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:_FxGoFyzp5QC'></span></strong>
+[**Paper**](https://arxiv.org/abs/2604.16694) \| [**Code**](https://github.com/TTTTTTris/RankGuide.git)
 - Leverages tensor-rank signals from hidden states to accelerate large reasoning model inference, yielding up to 1.75× and 1.36× latency benefit over LRM and SoTA collaborative inference while maintaining or improving accuracy.
 - A tensor-rank scoring metric on step-level hidden states detects low-quality reasoning steps and selectively routes them to larger models.
 </div>
@@ -59,7 +61,7 @@ You can find my publications on <a href='https://scholar.google.com/citations?us
 
 **Jiayi Tian**, Seyedarmin Azizi, Yequan Zhao, Erfan Baghaei Potraghloo, Sean McPherson, Sharath Nittur Sridhar, Zhengyang Wang, Zheng Zhang, Massoud Pedram, Souvik Kundu
 
-[**Paper**](https://proceedings.mlsys.org/paper_files/paper/2026/file/45c1f6a8cbf2da59ebf2c802b4f742cd-Paper-Conference.pdf) \| [**Code**](https://github.com/TTTTTTris/SkipKV.git) <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:ufrVoPGSRksC'></span></strong>
+[**Paper**](https://proceedings.mlsys.org/paper_files/paper/2026/file/45c1f6a8cbf2da59ebf2c802b4f742cd-Paper-Conference.pdf) \| [**Code**](https://github.com/TTTTTTris/SkipKV.git)
 - A training-free KV-cache compression framework with sentence-level selective eviction and dynamic thoughts-type control for efficient CoT reasoning in multi-batch serving.
 - Up to 26.7% higher accuracy, 1.6× shorter generation, and 1.7× higher throughput vs. SoTA under equal compression.
 </div>
@@ -72,22 +74,22 @@ You can find my publications on <a href='https://scholar.google.com/citations?us
 
 **Jiayi Tian**, Ryan Solgi, Jinming Lu, Yifan Yang, Hai Li, Zheng Zhang
 
-[**Paper**](https://aclanthology.org/2026.findings-eacl.156.pdf) \| [**Code**](https://github.com/TTTTTTris/FLAT-LLM) <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:Y0pCki6q_DkC'></span></strong>
+[**Paper**](https://aclanthology.org/2026.findings-eacl.156.pdf) \| [**Code**](https://github.com/TTTTTTris/FLAT-LLM)
 - A training-free, fine-grained compression method that exploits the low-rank structure of the activation space to transform and compress model weights.
 - A training-free rank selection algorithm based on greedy rank redistribution; strong results on LLaMA-2/3 and Mistral with calibration overhead in minutes.
 </div>
 </div>
 
-- [LoRi: Low-Rank Distillation for Implicit Reasoning](https://arxiv.org/abs/2606.05315), Ryan Solgi, **Jiayi Tian**, Zheng Zhang, **Findings of EMNLP 2026** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:LkGwnXOMwfcC'></span></strong>
-- [IAPO: Input Attribution-Aware Policy Optimization for Tool Use in Small Multimodal Agents](https://arxiv.org/abs/2606.11652), Yifan Yang, Zhen Zhang, **Jiayi Tian**, Liyan Tan, Zheng Zhang, **arXiv 2026** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:roLk4NBRz8UC'></span></strong>
-- [FETTA: Flexible and Efficient Hardware Accelerator for Tensorized Neural Network Training](https://arxiv.org/abs/2504.06474), Jinming Lu, **Jiayi Tian**, Hai Li, Ian Young, Zheng Zhang, **IEEE TCAD 2026** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:Tyk-4Ss8FVUC'></span></strong>
-- [Ultra Memory-Efficient On-FPGA Training of Transformers via Tensor-Compressed Optimization](https://ieeexplore.ieee.org/document/11121368), **Jiayi Tian**, Jinming Lu, Hai Li, Xiangwei Wang, Cong (Callie) Hao, Ian Young, Zheng Zhang, **IEEE TCAD 2025** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:W7OEmFMy1HYC'></span></strong>
-- [Tensor-Compressed and Fully-Quantized Training of Neural PDE Solvers](https://arxiv.org/abs/2512.09202), Jinming Lu, **Jiayi Tian**, Yequan Zhao, Hai Li, Zheng Zhang, **arXiv 2025** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:WF5omc3nYNoC'></span></strong>
-- [Activation-Informed Pareto-Guided Low-Rank Compression for Efficient LLM/VLM](https://arxiv.org/abs/2510.05544), Ryan Solgi, Parsa Madinei, **Jiayi Tian**, Rupak Swaminathan, Jing Liu, Nathan Susanj, Zheng Zhang, **arXiv 2025** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:YsMSGLbcyi4C'></span></strong>
-- [BEBERT: Efficient and Robust Binary Ensemble BERT](https://ieeexplore.ieee.org/document/10096223), **Jiayi Tian**, Chao Fang, Haonan Wang, Zhongfeng Wang, **ICASSP 2023** \| [**Code**](https://github.com/TTTTTTris/BEBERT.git) <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:u-x6o8ySG0sC'></span></strong>
+- [LoRi: Low-Rank Distillation for Implicit Reasoning](https://arxiv.org/abs/2606.05315), Ryan Solgi, **Jiayi Tian**, Zheng Zhang, **Findings of EMNLP 2026**
+- [IAPO: Input Attribution-Aware Policy Optimization for Tool Use in Small Multimodal Agents](https://arxiv.org/abs/2606.11652), Yifan Yang, Zhen Zhang, **Jiayi Tian**, Liyan Tan, Zheng Zhang, **arXiv 2026**
+- [FETTA: Flexible and Efficient Hardware Accelerator for Tensorized Neural Network Training](https://arxiv.org/abs/2504.06474), Jinming Lu, **Jiayi Tian**, Hai Li, Ian Young, Zheng Zhang, **IEEE TCAD 2026**
+- [Ultra Memory-Efficient On-FPGA Training of Transformers via Tensor-Compressed Optimization](https://ieeexplore.ieee.org/document/11121368), **Jiayi Tian**, Jinming Lu, Hai Li, Xiangwei Wang, Cong (Callie) Hao, Ian Young, Zheng Zhang, **IEEE TCAD 2025**
+- [Tensor-Compressed and Fully-Quantized Training of Neural PDE Solvers](https://arxiv.org/abs/2512.09202), Jinming Lu, **Jiayi Tian**, Yequan Zhao, Hai Li, Zheng Zhang, **arXiv 2025**
+- [Activation-Informed Pareto-Guided Low-Rank Compression for Efficient LLM/VLM](https://arxiv.org/abs/2510.05544), Ryan Solgi, Parsa Madinei, **Jiayi Tian**, Rupak Swaminathan, Jing Liu, Nathan Susanj, Zheng Zhang, **arXiv 2025**
+- [BEBERT: Efficient and Robust Binary Ensemble BERT](https://ieeexplore.ieee.org/document/10096223), **Jiayi Tian**, Chao Fang, Haonan Wang, Zhongfeng Wang, **ICASSP 2023** \| [**Code**](https://github.com/TTTTTTris/BEBERT.git)
 
 ## Mentorship
-- [Comprehensive Design Space Exploration for Tensorized Neural Network Hardware Accelerators](https://arxiv.org/abs/2511.17971), Jinsong Zhang, Minghe Li, **Jiayi Tian**, Jinming Lu, Zheng Zhang, **arXiv 2025** <strong><span class='show_paper_citations' data='lUdGlCkAAAAJ:eQOLeE2rZwMC'></span></strong>
+- [Comprehensive Design Space Exploration for Tensorized Neural Network Hardware Accelerators](https://arxiv.org/abs/2511.17971), Jinsong Zhang, Minghe Li, **Jiayi Tian**, Jinming Lu, Zheng Zhang, **arXiv 2025**
 
 
 # 📖 Educations

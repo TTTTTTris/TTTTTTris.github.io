@@ -17,14 +17,17 @@ jobs:
     timeout-minutes: 20
     steps:
     - uses: actions/checkout@v4
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
+    # Pin an interpreter of our own. The system python3 on newer runner images
+    # is PEP 668 "externally managed", so `pip3 install` into it is refused.
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
     - name: Run
       run: |
         cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
+        python -m pip install --upgrade pip
+        python -m pip install -r requirements.txt
+        python main.py
         cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
