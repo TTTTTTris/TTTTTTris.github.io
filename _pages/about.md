@@ -8,22 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. candidate in Computer Engineering at the **University of California, Santa Barbara**, where I also received my M.S. in Computer Engineering. Before that, I received my B.Eng. in Electrical Engineering from **Nanjing University**.
+I am a Ph.D. candidate in Computer Engineering at the **University of California, Santa Barbara** (expected 2027), where I also received my M.S. in Computer Engineering. Before that, I received my B.Eng. in Electrical Engineering from **Nanjing University**.
 
-My research focuses on **efficient large language model (LLM) training and inference** and **efficient chain-of-thought (CoT) reasoning via algorithm-system co-design**. I work across the stack — from compression algorithms to the systems that run them — on topics including model compression, KV cache compression, pruning, low-rank decomposition, early exit, knowledge distillation, quantization, speculative decoding/reasoning, and efficient agentic systems. My work has appeared at COLM, MLSys, EACL, EMNLP, ICASSP, and IEEE TCAD, and was developed in part during research internships at **Intel** and **AMD-Xilinx**.
+My research is on **efficient large language model (LLM) training and inference** and **efficient chain-of-thought (CoT) reasoning through algorithm–system co-design**. I work across the stack, from compression algorithms down to the hardware that runs them: model and KV-cache compression, pruning, low-rank decomposition, quantization, early exit, knowledge distillation, speculative decoding and reasoning, and efficient agentic systems. This work has appeared at COLM, MLSys, EACL, EMNLP, ICASSP, and IEEE TCAD, and was developed in part during research internships at **Intel** and a co-op at **AMD-Xilinx**.
 
 You can find my publications on <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'>Google Scholar</a>.
-
-<!-- with total <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'>citations <strong><span id='total_cit'>&hellip;</span></strong></a> <a href='https://scholar.google.com/citations?user=lUdGlCkAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
 # 🔥 News
 - *2026.08*: &nbsp;🎉 *LoRi: Low-Rank Distillation for Implicit Reasoning* accepted to Findings of the Association for Computational Linguistics: **EMNLP 2026**.
@@ -75,8 +66,8 @@ You can find my publications on <a href='https://scholar.google.com/citations?us
 **Jiayi Tian**, Ryan Solgi, Jinming Lu, Yifan Yang, Hai Li, Zheng Zhang
 
 [**Paper**](https://aclanthology.org/2026.findings-eacl.156.pdf) \| [**Code**](https://github.com/TTTTTTris/FLAT-LLM)
-- A training-free, fine-grained compression method that exploits the low-rank structure of the activation space to transform and compress model weights.
-- A training-free rank selection algorithm based on greedy rank redistribution; strong results on LLaMA-2/3 and Mistral with calibration overhead in minutes.
+- A training-free, fine-grained compression method that exploits the low-rank structure of the activation space to transform and compress model weights, allocating ranks by greedy redistribution so it drops into existing low-rank compression pipelines.
+- 5–10% higher accuracy than SoTA low-rank compression under equal compression on LLaMA-2/3 and Mistral, and 1.68× speedup at 10% compression, with calibration overhead in minutes.
 </div>
 </div>
 
@@ -93,7 +84,7 @@ You can find my publications on <a href='https://scholar.google.com/citations?us
 
 
 # 📖 Educations
-- *2023.09 - now*, **Ph.D. in Computer Engineering**, University of California, Santa Barbara, CA, USA. (GPA 3.93/4.0)
+- *2023.09 - 2027 (expected)*, **Ph.D. in Computer Engineering**, University of California, Santa Barbara, CA, USA. (GPA 3.93/4.0)
 - *2023.09 - 2025.09*, **M.S. in Computer Engineering**, University of California, Santa Barbara, CA, USA. (GPA 3.93/4.0)
 - *2019.09 - 2023.06*, **B.Eng. in Electrical Engineering**, Nanjing University, China. (GPA 4.50/5.0)
 
